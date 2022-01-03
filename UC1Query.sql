@@ -26,3 +26,5 @@ UPDATE AddressBook SET phoneNumber = '8765904567' WHERE firstName = 'Sagar';
 DELETE FROM AddressBook WHERE firstName ='Anvi';
 -------UC6--------------
 SELECT * FROM AddressBook WHERE city = 'Dhule' and state = 'Maharashtra';
+---------UC7---------------
+SELECT COUNT(firstName) FROM AddressBook WHERE city = 'Amalner' and state = 'Maharashtra';
