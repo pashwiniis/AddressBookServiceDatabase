@@ -20,3 +20,5 @@ select * from AddressBook
 insert into AddressBook values('Ashwini','Patil','102-Ramnagar','Dhule','Maharashtra',421502,'99975872889','pashwini684@hotmail.com');
 insert into AddressBook values('Sagar','Patil','103-shreenagar','Amalner','Maharashtra',534502,'99975872889','megha23@hotmail.com');
 insert into AddressBook values('Anvi','devare','201-chopda','jalgaon','kerala',675432,'9234512345','Anvi567@gmail.com');
+------UC4-------------
+UPDATE AddressBook SET phoneNumber = '8765904567' WHERE firstName = 'Sagar';
