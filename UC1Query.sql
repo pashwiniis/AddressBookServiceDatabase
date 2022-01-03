@@ -15,3 +15,8 @@ id int identity(1,1) not null,
   phoneNumber varchar(300),
   email varchar(300)
 )
+select * from AddressBook
+------UC3------------
+insert into AddressBook values('Ashwini','Patil','102-Ramnagar','Dhule','Maharashtra',421502,'99975872889','pashwini684@hotmail.com');
+insert into AddressBook values('Sagar','Patil','103-shreenagar','Amalner','Maharashtra',534502,'99975872889','megha23@hotmail.com');
+insert into AddressBook values('Anvi','devare','201-chopda','jalgaon','kerala',675432,'9234512345','Anvi567@gmail.com');
