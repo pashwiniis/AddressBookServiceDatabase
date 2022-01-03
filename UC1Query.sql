@@ -34,3 +34,9 @@ SELECT COUNT(firstName) FROM AddressBook WHERE city = 'Amalner' and state = 'Mah
 ---------UC8----------------
 
 SELECT * FROM AddressBook where city = 'Dhule' ORDER BY FirstName;
+----------UC9--------------
+ALTER TABLE AddressBook
+ADD type varchar(20);
+update AddressBook set type = 'Friends' where firstName = 'Ashwini' or firstName = 'prajkta'
+update AddressBook set type = 'Family' where firstName = 'Anvi' or firstName = 'Sagar'
+update AddressBook set type = 'profession' where firstName = 'Rakesh' 
