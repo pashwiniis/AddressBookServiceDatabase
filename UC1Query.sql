@@ -40,3 +40,5 @@ ADD type varchar(20);
 update AddressBook set type = 'Friends' where firstName = 'Ashwini' or firstName = 'prajkta'
 update AddressBook set type = 'Family' where firstName = 'Anvi' or firstName = 'Sagar'
 update AddressBook set type = 'profession' where firstName = 'Rakesh' 
+----------UC10------------
+SELECT COUNT(type) FROM AddressBook where type = 'Friends';
