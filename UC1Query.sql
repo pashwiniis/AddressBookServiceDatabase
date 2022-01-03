@@ -42,3 +42,6 @@ update AddressBook set type = 'Family' where firstName = 'Anvi' or firstName = '
 update AddressBook set type = 'profession' where firstName = 'Rakesh' 
 ----------UC10------------
 SELECT COUNT(type) FROM AddressBook where type = 'Friends';
+----------UC11-------------
+insert into AddressBook values('manavi','singh','vidyavihar','kurvel','Maharashtra',567843,'99975872889','dffashwini684@hotmail.com','Friends');
+insert into AddressBook values('manavi','singh','vidyavihar','kurvel','Maharashtra',567843,'99975872889','dffashwini684@hotmail.com','Family');
