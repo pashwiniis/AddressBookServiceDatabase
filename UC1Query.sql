@@ -22,3 +22,5 @@ insert into AddressBook values('Sagar','Patil','103-shreenagar','Amalner','Mahar
 insert into AddressBook values('Anvi','devare','201-chopda','jalgaon','kerala',675432,'9234512345','Anvi567@gmail.com');
 ------UC4-------------
 UPDATE AddressBook SET phoneNumber = '8765904567' WHERE firstName = 'Sagar';
+-------UC5---------------
+DELETE FROM AddressBook WHERE firstName ='Anvi';
