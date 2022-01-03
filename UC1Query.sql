@@ -24,3 +24,5 @@ insert into AddressBook values('Anvi','devare','201-chopda','jalgaon','kerala',6
 UPDATE AddressBook SET phoneNumber = '8765904567' WHERE firstName = 'Sagar';
 -------UC5---------------
 DELETE FROM AddressBook WHERE firstName ='Anvi';
+-------UC6--------------
+SELECT * FROM AddressBook WHERE city = 'Dhule' and state = 'Maharashtra';
